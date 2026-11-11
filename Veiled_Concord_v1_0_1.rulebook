@@ -1,6 +1,6 @@
 {
   "name": "Veiled Concord 11e — v1.0 Playtest",
-  "revision": "1.0.1-stage2",
+  "revision": "1.0.2-stage2",
   "game": "Warhammer 40k 11th Edition",
   "genre": "sci-fi",
   "publisher": "Homebrew",
@@ -9959,7 +9959,7 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Psyker"
+                "value": "PSYKER"
               }
             ],
             "evaluate": "AND",
@@ -9994,7 +9994,7 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Psyker"
+                "value": "PSYKER"
               }
             ],
             "evaluate": "AND",
@@ -10029,7 +10029,7 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Psyker"
+                "value": "PSYKER"
               }
             ],
             "evaluate": "AND",
@@ -10064,7 +10064,7 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Psyker"
+                "value": "PSYKER"
               }
             ],
             "evaluate": "AND",
