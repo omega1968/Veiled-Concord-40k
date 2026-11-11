@@ -1,6 +1,6 @@
 {
   "name": "Veiled Concord 11e — v1.0 Playtest",
-  "revision": "1.0.2-stage2",
+  "revision": "1.0.3-stage2",
   "game": "Warhammer 40k 11th Edition",
   "genre": "sci-fi",
   "publisher": "Homebrew",
@@ -8053,7 +8053,7 @@
           "MONSTER or VEHICLE CHARACTER model only.": {
             "evals": [
               {
-                "actionable": true,
+                "actionable": false,
                 "contains": true,
                 "not": false,
                 "operator": "AND",
@@ -8065,6 +8065,42 @@
                   ]
                 ],
                 "value": "Monster"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Vehicle"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
               }
             ],
             "evaluate": "AND",
@@ -8101,7 +8137,7 @@
           "MONSTER or VEHICLE CHARACTER model only.": {
             "evals": [
               {
-                "actionable": true,
+                "actionable": false,
                 "contains": true,
                 "not": false,
                 "operator": "AND",
@@ -8113,6 +8149,42 @@
                   ]
                 ],
                 "value": "Monster"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Vehicle"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
               }
             ],
             "evaluate": "AND",
@@ -9943,28 +10015,6 @@
           "Points": {
             "value": 25
           }
-        },
-        "rules": {
-          "PSYKER CHARACTER model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "PSYKER"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
         }
       },
       "Enhancement§Echo-Sight": {
@@ -9977,28 +10027,6 @@
         "stats": {
           "Points": {
             "value": 15
-          }
-        },
-        "rules": {
-          "PSYKER CHARACTER model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "PSYKER"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
           }
         }
       },
@@ -10013,28 +10041,6 @@
           "Points": {
             "value": 20
           }
-        },
-        "rules": {
-          "PSYKER CHARACTER model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "PSYKER"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
         }
       },
       "Enhancement§Psychic Overchannel": {
@@ -10047,28 +10053,6 @@
         "stats": {
           "Points": {
             "value": 25
-          }
-        },
-        "rules": {
-          "PSYKER CHARACTER model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "PSYKER"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
           }
         }
       }
