@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'stage2.zip.b64'
+      - 'chunks/stage2.part1'
+      - 'chunks/stage2.part2'
+      - 'chunks/stage2.part3'
+      - 'chunks/stage2.part4'
       - '.github/workflows/build-rulebook.yml'
 
 permissions:
@@ -15,9 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Decode Stage 2 package
+      - name: Reassemble Stage 2 package
         run: |
-          base64 -d stage2.zip.b64 > /tmp/Veiled_Concord_Rosterizer_Stage2.zip
+          cat chunks/stage2.part1 chunks/stage2.part2 chunks/stage2.part3 chunks/stage2.part4 > /tmp/stage2.zip.b64
+          base64 -d /tmp/stage2.zip.b64 > /tmp/Veiled_Concord_Rosterizer_Stage2.zip
           unzip -o /tmp/Veiled_Concord_Rosterizer_Stage2.zip Veiled_Concord.rulebook README.md AUDIT.txt -d .
       - name: Commit generated rulebook
         run: |
