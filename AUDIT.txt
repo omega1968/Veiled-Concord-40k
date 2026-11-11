@@ -1,0 +1,10 @@
+VEILED CONCORD ROSTERIZER STAGE 2 AUDIT
+
+JSON parse: PASS
+Detachments: 12 (expected 12)
+Enhancements: 48 (expected 48)
+Stratagems: 72 (expected 72)
+Detachment selector ranks: 12
+Playable datasheets detected: 34
+Structural reference errors: 0
+All detachment-to-Stratagem and detachment-to-Enhancement references validated.
