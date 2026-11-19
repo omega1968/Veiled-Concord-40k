@@ -129,6 +129,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -219,6 +225,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Lethal Hits",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -251,6 +263,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Precision",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -281,6 +299,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Pistol",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -311,6 +335,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Pistol",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -341,6 +371,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Rapid Fire 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -378,6 +414,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Lethal Hits",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -408,6 +450,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -445,6 +493,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -482,6 +536,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Indirect Fire, Lethal Hits, Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -521,6 +581,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Anti-Infantry 4+, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -563,6 +629,12 @@
           "D": {
             "format": "D6",
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Twin-linked",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -593,6 +665,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Anti-Infantry 3+, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -635,6 +713,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -718,6 +802,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -750,6 +840,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Lethal Hits",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -781,6 +877,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -838,6 +940,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent, Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -947,6 +1055,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -985,6 +1099,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1067,6 +1187,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Rapid Fire 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1104,6 +1230,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Assault",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1134,6 +1266,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Pistol",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1216,6 +1354,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Anti-Infantry 3+, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1259,6 +1403,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Lethal Hits",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1342,6 +1492,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Rapid Fire 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1431,6 +1587,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1539,6 +1701,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Assault",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1597,6 +1765,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1661,6 +1835,12 @@
           "D": {
             "format": "D6",
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Melta 2",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1698,6 +1878,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1807,6 +1993,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent, Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1866,6 +2058,12 @@
           },
           "D": {
             "value": 4
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Precision, Extra Attacks",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1898,6 +2096,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent, Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1929,6 +2133,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Sustained Hits 1, Anti-Psyker 4+",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -1979,6 +2189,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Anti-Psyker 4+, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2048,6 +2264,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent, Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2080,6 +2302,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Blast 2",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2137,6 +2365,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2174,6 +2408,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Anti-Infantry 4+",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2214,6 +2454,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Anti-Infantry 4+, Devastating Wounds, Hazardous",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2282,6 +2528,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2364,6 +2616,12 @@
           },
           "D": {
             "value": 4
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Lethal Hits, Melta 2",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2402,6 +2660,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2440,6 +2704,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2521,6 +2791,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2559,6 +2835,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2590,6 +2872,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Indirect Fire, Blast",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2674,6 +2962,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2737,6 +3031,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic, Devastating Wounds",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2768,6 +3068,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2799,6 +3105,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent, Psychic",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2882,6 +3194,12 @@
           },
           "D": {
             "value": 3
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2919,6 +3237,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Blast",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2949,6 +3273,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -2987,6 +3317,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -3068,6 +3404,12 @@
           },
           "D": {
             "value": 1
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Sustained Hits 1",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
@@ -3106,6 +3448,12 @@
           },
           "D": {
             "value": 2
+          },
+          "Weapon Keywords": {
+            "statType": "term",
+            "value": "Torrent",
+            "statOrder": 6,
+            "visibility": "normal"
           }
         },
         "assets": {
