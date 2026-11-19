@@ -4047,6 +4047,11 @@
                 }
               }
             },
+            "Ranged Weapon§Ascendant Rifle",
+            "Ranged Weapon§Ascendant Carbine",
+            "Ranged Weapon§Ascendant Pistol",
+            "Melee Weapon§Ascendant Blade",
+            "Melee Weapon§Ascendant Maul",
             "Ability§Battlefield Authority",
             "Ability§Ancestral Command",
             "Ability§Concord Praetor—Wargear Options"
@@ -4095,66 +4100,6 @@
             "value": 2,
             "visibility": "normal",
             "group": "Cost"
-          },
-          "Ranged weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Ascendant Rifle": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Ascendant Rifle"
-                  }
-                ]
-              },
-              "Ascendant Carbine": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Ascendant Carbine"
-                  }
-                ]
-              },
-              "Ascendant Pistol": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Ascendant Pistol"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Ascendant Rifle",
-            "visibility": "active"
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 3,
-            "ranks": {
-              "Ascendant Blade": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Ascendant Blade"
-                  }
-                ]
-              },
-              "Ascendant Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Ascendant Maul"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Ascendant Blade",
-            "visibility": "active"
           }
         }
       },
@@ -4239,6 +4184,8 @@
               }
             },
             "Ranged Weapon§Ascendant Pistol",
+            "Melee Weapon§Ascendant Glaive",
+            "Melee Weapon§Veilblade Ascendant Maul",
             "Ability§Heavy Hunter",
             "Ability§Unyielding Assault",
             "Ability§Veilblade Exemplar—Wargear Options"
@@ -4287,32 +4234,6 @@
             "value": 2,
             "visibility": "normal",
             "group": "Cost"
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Ascendant Glaive": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Ascendant Glaive"
-                  }
-                ]
-              },
-              "Veilblade Ascendant Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Veilblade Ascendant Maul"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Ascendant Glaive",
-            "visibility": "active"
           }
         }
       },
@@ -4332,6 +4253,8 @@
               }
             },
             "Ranged Weapon§Ascendant Heavy Rifle",
+            "Melee Weapon§Sanctum Ascendant Glaive",
+            "Melee Weapon§Sanctum Ascendant Maul",
             "Ability§Bulwark Commander",
             "Ability§Relentless Advance",
             "Ability§Sanctum Praetor—Wargear Options"
@@ -4380,32 +4303,6 @@
             "value": 2,
             "visibility": "normal",
             "group": "Cost"
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Sanctum Ascendant Glaive": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Sanctum Ascendant Glaive"
-                  }
-                ]
-              },
-              "Sanctum Ascendant Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Sanctum Ascendant Maul"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Sanctum Ascendant Glaive",
-            "visibility": "active"
           }
         }
       },
@@ -4624,81 +4521,16 @@
           },
           "OC": {
             "value": 2
-          },
-          "Ranged weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Warp Rifle": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Warp Rifle"
-                  }
-                ]
-              },
-              "Resonance Carbine": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Resonance Carbine"
-                  }
-                ]
-              },
-              "Warp Repeater": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Warp Repeater"
-                  }
-                ]
-              },
-              "Anchor Cannon": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Anchor Cannon"
-                  }
-                ],
-                "tracking": {
-                  "limitedLoadoutWeapons": 1
-                }
-              }
-            },
-            "statType": "rank",
-            "value": "Warp Rifle",
-            "visibility": "active"
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 3,
-            "ranks": {
-              "Warp Blade": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Warp Blade"
-                  }
-                ]
-              },
-              "Rift Talons": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Rift Talons"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Warp Blade",
-            "visibility": "active"
           }
         },
         "assets": {
           "traits": [
+            "Ranged Weapon§Warp Rifle",
+            "Ranged Weapon§Resonance Carbine",
+            "Ranged Weapon§Warp Repeater",
+            "Ranged Weapon§Anchor Cannon",
+            "Melee Weapon§Warp Blade",
+            "Melee Weapon§Rift Talons",
             "Ability§Concord Wardens—Wargear Options"
           ]
         }
@@ -4780,36 +4612,6 @@
             "visibility": "normal",
             "group": "Cost"
           }
-        },
-        "rules": {
-          "Only one special weapon replacement per five models.": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": [
-                  "{self}",
-                  "rules",
-                  "count1in5",
-                  "evals",
-                  "0",
-                  "result",
-                  "integer"
-                ],
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "limitedLoadoutWeapons"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error",
-            "order": 110
-          }
         }
       },
       "Model§Ascendant Reaver": {
@@ -4831,40 +4633,13 @@
           },
           "OC": {
             "value": 1
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Warp Cleaver": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Warp Cleaver"
-                  }
-                ]
-              },
-              "Void Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Void Maul"
-                  }
-                ],
-                "tracking": {
-                  "limitedLoadoutWeapons": 1
-                }
-              }
-            },
-            "statType": "rank",
-            "value": "Warp Cleaver",
-            "visibility": "active"
           }
         },
         "assets": {
           "traits": [
             "Ranged Weapon§Rift Pistol",
+            "Melee Weapon§Warp Cleaver",
+            "Melee Weapon§Void Maul",
             "Ability§Ascendant Reavers—Wargear Options"
           ]
         }
@@ -4944,36 +4719,6 @@
             "visibility": "normal",
             "group": "Cost"
           }
-        },
-        "rules": {
-          "Only one special weapon replacement per five models.": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": [
-                  "{self}",
-                  "rules",
-                  "count1in5",
-                  "evals",
-                  "0",
-                  "result",
-                  "integer"
-                ],
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "limitedLoadoutWeapons"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error",
-            "order": 110
-          }
         }
       },
       "Model§Veilguard model": {
@@ -4995,37 +4740,13 @@
           },
           "OC": {
             "value": 2
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Heavy Warp Glaive": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Heavy Warp Glaive"
-                  }
-                ]
-              },
-              "Void Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Void Maul"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Heavy Warp Glaive",
-            "visibility": "active"
           }
         },
         "assets": {
           "traits": [
             "Ranged Weapon§Warp Rifle",
+            "Melee Weapon§Heavy Warp Glaive",
+            "Melee Weapon§Void Maul",
             "Ability§Veilguard—Wargear Options"
           ]
         }
@@ -5126,96 +4847,6 @@
           },
           "OC": {
             "value": 2
-          },
-          "Ranged weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Warp Rifle": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Warp Rifle"
-                  }
-                ]
-              },
-              "Resonance Carbine": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Resonance Carbine"
-                  }
-                ]
-              },
-              "Warp Repeater": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Warp Repeater"
-                  }
-                ]
-              },
-              "Veilstorm Repeater": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Veilstorm Repeater"
-                  }
-                ]
-              },
-              "Aether Lance": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Aether Lance"
-                  }
-                ],
-                "tracking": {
-                  "limitedLoadoutWeapons": 1
-                }
-              },
-              "Riftbreaker": {
-                "order": 5,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Riftbreaker"
-                  }
-                ],
-                "tracking": {
-                  "limitedLoadoutWeapons": 1
-                }
-              }
-            },
-            "statType": "rank",
-            "value": "Warp Rifle",
-            "visibility": "active"
-          },
-          "Melee weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 3,
-            "ranks": {
-              "Heavy Warp Glaive": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Heavy Warp Glaive"
-                  }
-                ]
-              },
-              "Void Maul": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Void Maul"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Heavy Warp Glaive",
-            "visibility": "active"
           }
         },
         "assets": {
@@ -5229,6 +4860,14 @@
               }
             },
             "Ability§Deep Strike",
+            "Ranged Weapon§Warp Rifle",
+            "Ranged Weapon§Resonance Carbine",
+            "Ranged Weapon§Warp Repeater",
+            "Ranged Weapon§Veilstorm Repeater",
+            "Ranged Weapon§Aether Lance",
+            "Ranged Weapon§Riftbreaker",
+            "Melee Weapon§Heavy Warp Glaive",
+            "Melee Weapon§Void Maul",
             "Ability§Sanctum Cataphracts—Wargear Options"
           ]
         }
@@ -5308,36 +4947,6 @@
             "visibility": "normal",
             "group": "Cost"
           }
-        },
-        "rules": {
-          "Only one special weapon replacement per five models.": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": [
-                  "{self}",
-                  "rules",
-                  "count1in5",
-                  "evals",
-                  "0",
-                  "result",
-                  "integer"
-                ],
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "limitedLoadoutWeapons"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error",
-            "order": 110
-          }
         }
       },
       "Model§Exactor Cohort model": {
@@ -5359,36 +4968,12 @@
           },
           "OC": {
             "value": 1
-          },
-          "Ranged weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Aether Lance": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Aether Lance"
-                  }
-                ]
-              },
-              "Riftbreaker": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Riftbreaker"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Aether Lance",
-            "visibility": "active"
           }
         },
         "assets": {
           "traits": [
+            "Ranged Weapon§Aether Lance",
+            "Ranged Weapon§Riftbreaker",
             "Melee Weapon§Rift Knife",
             "Ability§Exactor Cohort—Wargear Options"
           ]
@@ -6228,6 +5813,9 @@
       "Unit§Exactor Battle Tank": {
         "assets": {
           "traits": [
+            "Ranged Weapon§Suppression Cannon",
+            "Ranged Weapon§Exactor Standard",
+            "Ranged Weapon§Exactor Overcharged",
             "Ranged Weapon§Side Repeater",
             "Melee Weapon§Armoured Hull",
             "Ability§Exactor Battle Tank—Wargear Options",
@@ -6276,88 +5864,14 @@
             "value": 3,
             "visibility": "normal",
             "group": "Cost"
-          },
-          "Main weapon pair": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Suppression Cannon + Suppression Cannon": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Suppression Cannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Suppression Cannon"
-                  }
-                ]
-              },
-              "Suppression Cannon + Exactor Standard": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Suppression Cannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Exactor Standard"
-                  }
-                ]
-              },
-              "Suppression Cannon + Exactor Overcharged": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Suppression Cannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Exactor Overcharged"
-                  }
-                ]
-              },
-              "Exactor Standard + Exactor Standard": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Exactor Standard"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Exactor Standard"
-                  }
-                ]
-              },
-              "Exactor Standard + Exactor Overcharged": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Exactor Standard"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Exactor Overcharged"
-                  }
-                ]
-              },
-              "Exactor Overcharged + Exactor Overcharged": {
-                "order": 5,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Exactor Overcharged"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Exactor Overcharged"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Suppression Cannon + Suppression Cannon",
-            "visibility": "active"
           }
         }
       },
       "Unit§Siegebreaker Battle Tank": {
         "assets": {
           "traits": [
+            "Ranged Weapon§Siegebreaker Cannon",
+            "Ranged Weapon§Rift Lance",
             "Ranged Weapon§Repeater Battery",
             "Melee Weapon§Siegebreaker Hull",
             "Ability§Siegebreaker Battle Tank—Wargear Options",
@@ -6406,32 +5920,6 @@
             "value": 3,
             "visibility": "normal",
             "group": "Cost"
-          },
-          "Main weapon": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Siegebreaker Cannon": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Siegebreaker Cannon"
-                  }
-                ]
-              },
-              "Rift Lance": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rift Lance"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Siegebreaker Cannon",
-            "visibility": "active"
           }
         }
       },
